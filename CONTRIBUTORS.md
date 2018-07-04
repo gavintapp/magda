@@ -20,5 +20,6 @@ The following people have contributed to Magda:
     *   [Alex Sadlier](https://github.com/maxious)
     *   [Adam Zerella](https://github.com/adamzerella)
     *   [Sukraj Ghuman](https://github.com/sukhrajghuman)
+    *   [Gavin Tapp] (https://github.com/gavintapp)
 *   Other Contributors
     *   [Kat Ballo](https://github.com/ketikat)
