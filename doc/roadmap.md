@@ -1,6 +1,6 @@
 # Roadmap
 
-This is a _loose_ plan of what we're planning to do in Magda in the future. This is provided mainly so potential contributors can see our direction, and so those who are considering using Magda can see where it's going to go in the future. Please keep in keep in mind that this is not a promise - we could change direction at any time (and have done in the past!), so don't make any plans based on this that you can't change! Get in touch if you want to contribute!
+This is a _loose_ plan of what we're planning to do in Magda in the future. This is provided mainly so potential contributors can see our direction, and so those who are considering using Magda can see where it's going to go in the future. Please keep in mind that this is not a promise - we could change direction at any time (and have done in the past!), so don't make any plans based on this that you can't change! Get in touch if you want to contribute!
 
 ## Past Priorities Jan - June 2018
 
@@ -22,7 +22,7 @@ This is a _loose_ plan of what we're planning to do in Magda in the future. This
 
 ## Current Priorities June 2018 - June 2019
 
-**APIification**: The ability to turn well-formatted datasets into RESTful APIs - this is something that's already offered by CKAN and is depended upon by users of data.gov.au. This may mean replicating how CKAN does it - ingesting the data into a single database and running queries on it - or adopting an AWS Lambda-esque approach where we spin up containers on demand to server requests.
+**APIification**: The ability to turn well-formatted datasets into RESTful APIs - this is something that's already offered by CKAN and is depended upon by users of data.gov.au. This may mean replicating how CKAN does it - ingesting the data into a single database and running queries on it - or adopting an AWS Lambda-esque approach where we spin up containers on demand to serve requests.
 
 **API Documentation**: Currently only the registry API has any documentation and this is often down - an effort needs to be made to clean this up.
 
@@ -40,7 +40,7 @@ This is a _loose_ plan of what we're planning to do in Magda in the future. This
 
 **User Management/Administration**: Currently it's possible to create an account with Magda and log in, but there's very little ability to change your details, or for administrators to ban or delete abusive accounts - these features need to be added.
 
-**Access Control**: Currently Magda has two roles: `isAdmin=true` and `isAdmin=false`. We want to build Role-Based Access Control into magda so that fine-grained policies can be set as to what users are allowed to change or see what within the system.
+**Access Control**: Currently Magda has two roles: `isAdmin=true` and `isAdmin=false`. We want to build Role-Based Access Control into Magda so that fine-grained policies can be set as to what users are allowed to change or see within the system.
 
 ## Long-Term Priorities (next 2 years)
 
@@ -61,7 +61,7 @@ We're planning to do a lot of research into what exactly data consumers find use
 
 **Layering**: Allowing for parts of an aspect to be changed in such a way that the next time the dataset is harvested the changes aren't overwritten.
 
-**GraphQL API**: The structure of the registry is effectively a graph, and hence lends itself well to being queries via GraphQL.
+**GraphQL API**: The structure of the registry is effectively a graph, and hence lends itself well to being queried via GraphQL.
 
 ## Backlog
 
